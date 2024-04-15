@@ -56,6 +56,9 @@ namespace program
                 worker.addContract(contract1);
             }
 
+            /// Checking data indicated by the user and showing the desired income
+            /// Verificando dados indicados pelo usuário e mostrando a renda desejada
+            ///
             System.Console.Write("Insira o mês e o ano que deseja calcular a renda. (Mês/Ano) ");
             string newDate = Console.ReadLine();
             int month = int.Parse(newDate.Substring(0,2));
